@@ -1,0 +1,23 @@
+{
+  "name": "TypescriptAngularInfrastructure",
+  "version": "1.0.0",
+  "description": "TypescriptAngularInfrastructure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mr-rahimi/TypescriptAngularInfrastructure.git"
+  },
+  "keywords": [
+    "angular",
+    "typescript"
+  ],
+  "author": "mr-rahimi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mr-rahimi/TypescriptAngularInfrastructure/issues"
+  },
+  "homepage": "https://github.com/mr-rahimi/TypescriptAngularInfrastructure"
+}
