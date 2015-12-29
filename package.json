@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/mr-rahimi/TypescriptAngularInfrastructure/issues"
   },
-  "homepage": "https://github.com/mr-rahimi/TypescriptAngularInfrastructure"
+  "homepage": "https://github.com/mr-rahimi/TypescriptAngularInfrastructure",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.7"
+  }
 }
