@@ -1,0 +1,26 @@
+﻿<div>
+    <button type="button" class="btn btn-success" ui-sref="category.create">ایجاد</button>
+    <table class="table table-condensed table-striped ">
+        <thead>
+            <tr class="success">
+                <td>شناسه</td>
+                <td>نام</td>
+                <td>توضیحات</td>
+                <td>عملیات ها</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="item in CategoryItems">
+                <td>{{item.Id}}</td>
+                <td>{{item.Name}}</td>
+                <td>{{item.Description}}</td>
+                <td>
+                    <button type="button" class="btn btn-primary " ui-sref="category.edit({Id: item.Id})">ویرایش</button>
+                    <button type="button" class="btn btn-danger " ui-sref="category.delete">حذف</button>
+                    <button type="button" class="btn btn-info " ui-sref="category.details">جزئیات</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div ui-view ></div>
+</div>
