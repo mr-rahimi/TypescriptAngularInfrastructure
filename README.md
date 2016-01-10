@@ -21,7 +21,7 @@ Change current directory to root of repository then run following command:
 npm install
 ```
 ## Build Solution
-Change current directory to root of repository then run following command:
+In order to build development code to production file change current directory to root of repository then run following command:
 ```shell
 gulp all
 ```
